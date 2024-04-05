@@ -1,0 +1,162 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#header {
+	margin: 10px;
+}
+
+.panel {
+	color: #31708f;
+	margin-bottom: 20px;
+	border: 1px solid #bce8f1;
+    border-radius: 0.65em;
+}
+.panel-title {
+	background-color: #d9edf7;
+	padding: 5px 10px;
+	margin: 0px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.panel-body {
+	background-color: #fff;
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+}
+#difficulty-select .panel-body{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#display-area, #answer-area {
+    display: flex;
+    align-items: stretch;
+	margin: 10px 0px;
+	font-size: 140%;
+}
+.display {
+	width: 10em;
+	border: 1px solid #e5e5e5;
+	border-radius: 0.4em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	font-size: 140%;
+	margin: 0px auto;
+}
+
+#btns {
+    display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+#answer-text {
+	width: 400px;
+	margin: 0px 2px;
+	display: none;
+	font-size: 100%;
+}
+.btn {
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	border-radius: 0.3em;
+	font-size: 90%;
+}
+#game-start-btn {
+	background: #668ad8;/*ボタン色*/
+	color: #FFF;
+}
+#answer-btn {
+	background: #5cb85c;/*ボタン色*/
+	color: #FFF;
+	margin: 0px 2px;
+	display: none;
+}
+#giveup-btn {
+	background: #d9534f;/*ボタン色*/
+	color: #FFF;
+	margin: 0px 2px;
+	display: none;
+}
+
+#num-of-answered {
+	color: brown;
+}
+
+table {
+	font-size: 140%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table-area td {
+    padding: 2px;
+    font-size: 80%;
+	border: 1px solid #ddd;
+}
+
+#message-area {
+	color: red;
+	text-align: center;
+}
+.table-area td.answered {
+	background-color: cyan;
+}
+.table-area td.giveUp {
+	color: red;
+}
+
+#all-table-area {
+	display: none;
+}
+#age1-header {
+	color: white;
+	background-color: magenta;
+}
+#age2-header {
+	color: white;
+	background-color: #aaa;
+}
+#age3-header {
+	color: white;
+	background-color: #e6b422;
+}
+#age4-header {
+	color: white;
+	background-color: #42ef23;
+}
+#age5-header {
+	color: white;
+	background-color: #333;
+}
+#age6-header {
+	color: white;
+	background-color: #10beff;
+}
+#age7-header {
+	color: white;
+	background-color: orange;
+}
+
+input[type="radio"] {
+	width: 1.3em; /* 幅を指定 */
+	height: 1.3em; /* 高さを指定 */
+}
+
+#footer {
+	padding: 10px;
+	font-size: 100%;
+}
